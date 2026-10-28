@@ -21,6 +21,8 @@ agents:
       source: harness/do-needs-review-bot.yaml
     - name: do-needs-coder-bot
       source: harness/do-needs-coder-bot.yaml
+    - name: do-on-label
+      source: harness/do-on-label.yaml
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
